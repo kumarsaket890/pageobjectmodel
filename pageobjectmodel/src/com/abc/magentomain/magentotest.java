@@ -23,8 +23,9 @@ public class magentotest {
 		l.typemail();
 		l.typepassword();
 		l.clickonlogin();
-		home h=new home(d);
+		home h=new home(c);
 		h.clickonlogout();
+		System.out.println("my send conmmit");
 		
 		c.quit();
 
