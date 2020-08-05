@@ -23,7 +23,7 @@ public class magentotest {
 		l.typemail();
 		l.typepassword();
 		l.clickonlogin();
-		home h=new home(c);
+		home h=new home(d);
 		h.clickonlogout();
 		
 		c.quit();
